@@ -21,8 +21,8 @@ function App() {
   return (
     <>
       <div className="flex justify-center items-center min-h-screen">
-        <div>
-          <div className="flex justify-center items-center gap-3 flex-col bg-slate-300 w-auto p-4 border rounded-md">
+        <div className=' bg-slate-300 w-auto p-4 border rounded-md'>
+          <div className="flex justify-center items-center gap-3 flex-col">
             <h1 className="text-blue-600 font-bold underline">My To Do List</h1>
             <div className="flex">
               <input
@@ -41,14 +41,16 @@ function App() {
             </div>
             <hr className="text-black w-auto mx-4 h-2" />
 
-            {task
+            
+          </div>
+          {task
               .sort((a, b) => a.status - b.status) 
               .map((item, index) => (
                 <div key={index} className="flex items-center justify-start gap-4 mt-2">
                   <input 
                     type="checkbox" 
                     checked={item.status} 
-                    className="border-blue-600 bg-blue-600 w-4 h-4" // Ensure consistent checkbox size
+                    className="border-blue-600 bg-blue-600 w-4 h-4" 
                     onChange={() => changestatus(index)} 
                   />
                   <div className={`text-slate-800 flex-grow min-w-0 ${item.status ? 'line-through' : ''}`}>
@@ -56,7 +58,7 @@ function App() {
                   </div>
                 </div>
               ))}
-          </div>
+          
         </div>
       </div>
     </>
