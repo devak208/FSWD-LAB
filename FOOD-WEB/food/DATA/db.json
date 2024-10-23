@@ -1,0 +1,52 @@
+{
+    "foodItems": [
+        {
+            "name": "Chicken",
+            "price": "$798",
+            "description": "Delicious grilled chicken",
+            "image": "image.png"
+        },
+        {
+            "name": "Fish",
+            "price": "$699",
+            "description": "Fresh seafood",
+            "image": "image.png"
+        },
+        {
+            "name": "Beef Burger",
+            "price": "$899",
+            "description": "Juicy beef burger with cheese",
+            "image": "image.png"
+        },
+        {
+            "name": "Pasta",
+            "price": "$650",
+            "description": "Creamy Alfredo pasta",
+            "image": "image.png"
+        },
+        {
+            "name": "Vegetable Salad",
+            "price": "$499",
+            "description": "Fresh garden salad with dressing",
+            "image": "image.png"
+        },
+        {
+            "name": "Tacos",
+            "price": "$599",
+            "description": "Spicy chicken tacos with salsa",
+            "image": "image.png"
+        },
+        {
+            "name": "Pizza",
+            "price": "$999",
+            "description": "Cheese pizza with pepperoni",
+            "image": "image.png"
+        },
+        {
+            "name": "Ice Cream",
+            "price": "$299",
+            "description": "Creamy vanilla ice cream",
+            "image": "image.png"
+        }
+    ]
+}
